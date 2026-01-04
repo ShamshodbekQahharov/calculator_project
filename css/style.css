@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+body{
+    background-image:url(../img/calc-bgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sarlavha-box{
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow:0 0 10px rgba(0, 128, 255, 0.7);
+    margin:auto;
+}
+.kalkulator {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.7);
+}
+#display {
+    height: 75px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow:0 0 10px rgba(255, 255, 255, 0.7);
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.buttons {
+    grid-template-columns: repeat(4, 1fr);
+}
+button {
+    height: 60px;
+    font-size: 32px;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow:0 0 10px rgba(255, 255, 255, 0.3);
+    border:none;
+    margin:5px;
+}
+.amal{
+    background-color: rgba(0, 128, 255, 0.5);
+    box-shadow:0 0 10px rgba(255, 255, 255, 0.5);
+}
